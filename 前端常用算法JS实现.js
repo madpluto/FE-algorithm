@@ -12,7 +12,7 @@ var ids = [11,22,333];
     }
 })();
 
-//递归实现串行请求不堵塞
+// 递归实现串行请求不堵塞
 
 function getElementById(node,id){
     if(!node) return null;
@@ -24,7 +24,7 @@ function getElementById(node,id){
     return null;
 }
 
-//深度优先地递归遍历DOM树查找id
+// 深度优先地递归遍历DOM树查找id
 
 function getElementById(node,id){
     // 遍历所有的Node
